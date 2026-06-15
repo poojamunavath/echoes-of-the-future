@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://blagl366xk4y8"]
+
+[node name="Control" type="Control" unique_id=1638864924]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="choiceText" type="Label" parent="." unique_id=1806931974]
+layout_mode = 0
+offset_left = 545.0
+offset_top = 34.0
+offset_right = 713.0
+offset_bottom = 135.0
+text = "The village is burning.
+
+What will you do?
+"
+
+[node name="SaveVillageButton" type="Button" parent="." unique_id=1858475743]
+layout_mode = 0
+offset_left = 780.0
+offset_top = 243.0
+offset_right = 879.0
+offset_bottom = 274.0
+text = "Save Village
+"
+
+[node name="DestroyVillageButton" type="Button" parent="." unique_id=356862928]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 250.0
+offset_right = 499.0
+offset_bottom = 281.0
+text = "Destroy Village
+"

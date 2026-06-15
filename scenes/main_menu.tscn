@@ -1,3 +1,42 @@
-[gd_scene format=3 uid="uid://flqw446rrwg2"]
+[gd_scene format=3 uid="uid://bm8lmgrhsx11y"]
 
-[node name="Node2D" type="Node2D" unique_id=1952263026]
+[ext_resource type="Script" uid="uid://comtpa2mol52l" path="res://scripts/main_menu.gd" id="1_l6cm7"]
+
+[node name="Control2" type="Control" unique_id=659694842]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6cm7")
+
+[node name="Title" type="Label" parent="." unique_id=469053650]
+layout_mode = 0
+offset_left = 508.0
+offset_top = 10.0
+offset_right = 640.0
+offset_bottom = 59.0
+text = "Echoes-of-Future
+"
+
+[node name="startButton" type="Button" parent="." unique_id=776463322]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 300.0
+offset_right = 616.0
+offset_bottom = 331.0
+text = "Start Game
+"
+
+[node name="ExitButton" type="Button" parent="." unique_id=2102712203]
+layout_mode = 0
+offset_left = 529.0
+offset_top = 506.0
+offset_right = 616.0
+offset_bottom = 537.0
+text = "Exit Game
+"
+
+[connection signal="pressed" from="startButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="ExitButton" to="." method="_on_exit_button_pressed"]

@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dywdlvmcvwotg"]
+
+[node name="Control" type="Control" unique_id=2019440364]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StoryText" type="Label" parent="." unique_id=947318962]
+layout_mode = 0
+offset_right = 329.0
+offset_bottom = 205.0
+text = "Year 2145
+
+The kingdom is under attack.
+
+A village is burning in the distance.
+
+Your decisions today will shape the future.
+"
+
+[node name="ContinueButton" type="Button" parent="." unique_id=2038573771]
+layout_mode = 0
+offset_left = 172.0
+offset_top = 304.0
+offset_right = 251.0
+offset_bottom = 335.0
+text = "Continue
+"
